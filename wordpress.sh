@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo yum update
 sudo yum -y install git
-https://github.com/naidu456/docker-compose.yaml.git
+sudo git clone https://github.com/naidu456/docker-compose.yaml.git
 sudo yum -y install docker
 sudo usermod -a -G docker ec2-user
 sudo systemctl start docker
